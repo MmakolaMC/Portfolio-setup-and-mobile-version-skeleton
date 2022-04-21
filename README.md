@@ -4,60 +4,23 @@
 
 > My development portfolio.
 
-
 ## Built With
 
-- HTML & CSS
-
-
-## Getting Started
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Setup
-
- Open your terminal and enter desired folder for this repo using cd path/path
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- HTML
+- CSS
 
 ## Authors
 
-👤 **Author1**
+👤 Magalaweng Clive Mmakola
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- GitHub: [@githubhandle](https://github.com/MmakolaMC)
+- Twitter: [@twitterhandle](https://twitter.com/CliveMmakola)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/magalaweng-mmakola-804152203)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
