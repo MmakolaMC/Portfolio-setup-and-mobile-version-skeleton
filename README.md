@@ -1,6 +1,9 @@
 # Portfolio: setup and mobile version skeleton
 
-> My development portfolio.
+> A setup and skeleton of a porfolio website.
+> Navigational bar to help navigate to all necessary parts of the website
+> A short introduction of who I am and what I do.
+> All my social media pages available on the site for contact.
 
 ## Built With
 
