@@ -1,3 +1,93 @@
-.header h1 {
-  color: blue;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+  color: mistyrose;
+  background: black;
+}
+
+.elements {
+  background: rgba(189, 182, 182, 0.1);
+}
+
+.content {
+  padding-right: 1000px;
+  padding-left: 10px;
+  min-height: 100vh;
+  background-image: url('image/Illustration-header.png');
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.content .one {
+  position: static;
+  font-style: normal;
+  font-size: 72px;
+  font-weight: 400px;
+  line-height: 82px;
+  color: #f55800;
+}
+
+.content .two {
+  position: static;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.content .three {
+  position: static;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+.content ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.content ul li {
+  flex: 1;
+}
+
+.elements ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.elements ul li {
+  color: white;
+  text-decoration: none;
 }
