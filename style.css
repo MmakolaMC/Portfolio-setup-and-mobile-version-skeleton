@@ -17,6 +17,7 @@ body {
 }
 
 .elements {
+  padding-right: 10px;
   background: rgba(189, 182, 182, 0.1);
 }
 
