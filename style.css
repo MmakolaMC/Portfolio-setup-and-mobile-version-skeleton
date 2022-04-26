@@ -89,7 +89,9 @@ a:hover {
   /* background picture */
   background-image: url('image/Illustration.png');
   background-repeat: no-repeat;
-  background-position: 225px 225px;
+  background-position: 229px 225px;
+
+  /* border: 1px solid red; */
 }
 
 /* paragraph one in section style */
