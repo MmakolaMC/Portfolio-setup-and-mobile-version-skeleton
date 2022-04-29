@@ -220,7 +220,6 @@ a:hover {
   width: 327px;
   height: 386px;
   background-image: url('image/Img_Placeholder.png');
-  border: 1px solid red;
 }
 
 .right_block {
@@ -232,6 +231,7 @@ a:hover {
   position: absolute;
   width: 327px;
   height: 248px;
+  order: 0;
 }
 
 .title_post {
@@ -306,16 +306,18 @@ a:hover {
 }
 
 .action {
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  position: relative;
   width: 327px;
   height: 48px;
   left: 0;
-  top: 0;
+  top: 338px;
+  background: #ff6b00;
+}
 
-  /* background-image: url('image/Action.png'); */
-
-  margin: 12px 0 0 0;
-  border: 1px solid red;
+.act {
+  margin: 0;
 }
 
 /* all lists */
@@ -416,8 +418,13 @@ button {
   position: absolute;
   width: 124px;
   height: 48px;
-  background: #f55800;
+  background: #ff6b00;
   margin: 12px 0 0 0;
+  border: 0;
+}
+
+button:hover {
+  color: #f55800;
 }
 
 /* all about me section styling */
@@ -446,6 +453,12 @@ button {
 
 .p3 {
   height: 148px;
+}
+
+.resume {
+  position: static;
+  width: 161px;
+  height: 48px;
 }
 
 .d1 {
