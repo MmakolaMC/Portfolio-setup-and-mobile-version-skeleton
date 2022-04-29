@@ -216,7 +216,7 @@ a:hover {
 }
 
 ._works {
-  position: static;
+  position: relative;
   width: 327px;
   height: 386px;
   background-image: url('image/Img_Placeholder.png');
@@ -308,7 +308,7 @@ a:hover {
 .action {
   display: flex;
   justify-content: center;
-  position: relative;
+  position: absolute;
   width: 327px;
   height: 48px;
   left: 0;
