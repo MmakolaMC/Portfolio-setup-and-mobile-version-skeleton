@@ -170,7 +170,7 @@ a:hover {
 }
 
 /* heading items */
-.title h4 {
+.title h3 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -423,8 +423,24 @@ button {
   border: 0;
 }
 
+button:disabled {
+  background: #f4f1f0;
+  color: grey;
+}
+
+button::after {
+  background: #e05304;
+}
+
 button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
   color: #f55800;
+}
+
+button:enabled {
+  background: #f55800;
 }
 
 /* all about me section styling */
