@@ -610,27 +610,24 @@ button:enabled {
   align-items: center;
   padding: 120px 24px;
   position: relative;
-
   width: 375px;
   height: 845px;
-  left: 0px;
+  left: 0;
 }
 
 .form_text {
   position: static;
   width: 327px;
   height: 216px;
-  left: 0px;
-  top: 0px;
-
-  font-family: 'Inter';
+  left: 0;
+  top: 0;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .form {
@@ -642,8 +639,7 @@ button:enabled {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  padding: 0px;
+  padding: 0;
   position: static;
   width: 327px;
   height: 330px;
@@ -659,7 +655,6 @@ button:enabled {
   width: 100%;
   padding-bottom: 16px;
   padding-left: 16px;
-
   border-bottom: 1px solid #dbd8d7;
   margin-top: 39px;
 }
@@ -674,7 +669,6 @@ button:enabled {
   margin-top: 39px;
   width: 327px;
   height: 114px;
-
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -696,13 +690,13 @@ button:enabled {
   justify-content: center;
 }
 
-.itm:hover a {
-  color: #e05304;
-}
-
 .itm a {
   color: #505f79;
   font-size: 30px;
+}
+
+.itm:hover a {
+  color: #e05304;
 }
 
 .bottom {
