@@ -609,12 +609,11 @@ button:enabled {
   flex-direction: column;
   align-items: center;
   padding: 120px 24px;
-  position: absolute;
+  position: relative;
 
   width: 375px;
   height: 845px;
   left: 0px;
-  top: 6038px;
 }
 
 .form_text {
@@ -623,14 +622,14 @@ button:enabled {
   height: 216px;
   left: 0px;
   top: 0px;
-  
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  
+
   color: #172B4D;
 }
 
@@ -672,10 +671,10 @@ button:enabled {
 .msg {
   padding: 12px;
   vertical-align: top;
-  margin-top:  39px;
+  margin-top: 39px;
   width: 327px;
   height: 114px;
-  
+
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -686,4 +685,34 @@ button:enabled {
 
 .form_btn {
   margin-top: 24px;
+}
+
+.social_media {
+  border-top: 1px solid #dfe1e6;
+  padding: 30px 0;
+  margin-top: 124px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.itm:hover a {
+  color: #e05304;
+}
+
+.itm a {
+  color: #505f79;
+  font-size: 30px;
+}
+
+.bottom {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom .itm:not(:last-child) {
+  margin-right: 20px;
 }
