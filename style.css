@@ -450,7 +450,7 @@ button:enabled {
   width: 375px;
   margin: 120px 0 0 0;
   background: black;
-  padding: 0 0 0 24px;
+  padding: 0 24px 0 24px;
   background-image: url('image/Frame.png');
   background-repeat: no-repeat;
   background-position: 227px 360px;
