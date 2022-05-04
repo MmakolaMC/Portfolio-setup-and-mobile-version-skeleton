@@ -33,6 +33,7 @@ a:hover {
   left: 0;
   top: 0;
   background: #3e3a39;
+  width: 375px;
 
   /* header flexbox */
   display: flex;
@@ -74,6 +75,7 @@ a:hover {
 }
 
 .content {
+  width: 375px;
   padding: 120px 24px;
   background: #1c1a19;
   background-image: url('image/Illustration.png');
@@ -599,4 +601,89 @@ button:enabled {
   left: 0;
   top: 0;
   margin: 0 79px;
+}
+
+/* form */
+.form_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+  position: absolute;
+
+  width: 375px;
+  height: 845px;
+  left: 0px;
+  top: 6038px;
+}
+
+.form_text {
+  position: static;
+  width: 327px;
+  height: 216px;
+  left: 0px;
+  top: 0px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  
+  color: #172B4D;
+}
+
+.form {
+  margin-top: 73px;
+}
+
+.form_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0px;
+  position: static;
+  width: 327px;
+  height: 330px;
+  left: 24px;
+  top: 394px;
+}
+
+.form_item {
+  position: static;
+  left: 0%;
+  right: 0%;
+  bottom: 85.45%;
+  width: 100%;
+  padding-bottom: 16px;
+  padding-left: 16px;
+
+  border-bottom: 1px solid #dbd8d7;
+  margin-top: 39px;
+}
+
+.form input {
+  border: none;
+}
+
+.msg {
+  padding: 12px;
+  vertical-align: top;
+  margin-top:  39px;
+  width: 327px;
+  height: 114px;
+  
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+.form_btn {
+  margin-top: 24px;
 }
