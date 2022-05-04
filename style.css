@@ -11,7 +11,7 @@
 }
 
 .main {
-  max-width: 375px;
+  max-width: 100%;
   max-height: 8000px;
   display: grid;
   grid-template-columns: 1fr;
@@ -214,6 +214,7 @@ a:hover {
 
 /* all card works */
 .works {
+  width: 375px;
   max-height: 3455px;
 }
 
@@ -690,7 +691,7 @@ button:enabled {
   border-top: 1px solid #dfe1e6;
   padding: 30px 0;
   margin-top: 124px;
-  width: 100%;
+  width: 375px;
   display: flex;
   justify-content: center;
 }
@@ -701,7 +702,7 @@ button:enabled {
 }
 
 .itm:hover a {
-  color: #e05304;
+  color: goldenrod;
 }
 
 .bottom {
